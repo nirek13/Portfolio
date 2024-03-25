@@ -1,21 +1,21 @@
 :root {
-  --main-bg-color: #191919;
-  --second-bg-color: #202020;
-  --heading-color: #b0c4de;
-  --main-text-color: #d4d4d4;
-  --selection-color: #fff;
-  --scroll-color: #8cc8ff;
-  --arrow-color: #f58f70;
+  --main-bg-color: #1a1a1a;
+  --second-bg-color: #272727;
+  --heading-color: #ff6b6b;
+  --main-text-color: #f0f0f0;
+  --selection-color: #4d4d4d;
+  --scroll-color: #f76c6c;
+  --arrow-color: #70a1ff;
   --bg-shade: soft-light;
-  --link-color: #8cc8ff;
+  --link-color: #70a1ff;
   --logo-filter: invert(80%);
   --logo-transform: rotate(180deg);
   --logo-transform-hover: rotate(200deg) scale(1.2);
-  --border-color: #282828;
-  --name-hover: #f58f70;
+  --border-color: #333333;
+  --name-hover: #f76c6c;
   --name-shadow: #6d7989;
-  --border-outline: #b0c4de;
-  --toast-bg: rgba(28, 28, 28, 0.95);
+  --border-outline: #ff6b6b;
+  --toast-bg: rgba(26, 26, 26, 0.95);
   --toast-border: rgba(255, 255, 255, 0.1);
   --toast-border2: rgba(255, 255, 255, 0.05);
   --toast-close: invert(100%);
@@ -23,6 +23,8 @@
   --hello-img-filter: invert(80%);
   --click-img-filter: invert(90%);
 }
+
+/* Rest of your CSS rules follow... */
 
 [nirekshetty-data-theme="light"] {
   --main-bg-color: #fff;
