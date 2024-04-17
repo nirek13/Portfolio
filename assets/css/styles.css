@@ -155,11 +155,13 @@ section:nth-last-of-type(odd) {
 }
 
 #logo {
+  position: absolute;
+  left: 0;
   transform: var(--logo-transform);
-  max-height: 2.8rem;
+  max-height: 10rem;
   filter: var(--logo-filter);
   transition: all ease 0.5s;
-  margin: 0 0.5rem;
+  margin: 1px;
 }
 
 @media (hover: hover) {
@@ -178,7 +180,7 @@ section:nth-last-of-type(odd) {
   font-weight: 600;
   font-size: 2.5rem;
   text-align: left;
-    font-family: "Pacifico", cursive;
+  font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
 
@@ -514,6 +516,7 @@ footer {
   display: block;
 }
 
+
 .scroll-to-top i {
   animation: bounce 2s infinite;
   margin-top: 1.25rem;
@@ -521,3 +524,94 @@ footer {
   transition: all ease 0.2s;
 }
 
+/* Terminal styles */
+.terminal {
+  background-color: var(--main-bg-color);
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Monaco, monospace;
+  color: #fff;
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  background-color: #222;
+  padding: 5px;
+}
+
+.button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.green {
+  background-color: #5ac265;
+}
+
+.yellow {
+  background-color: #ecc962;
+}
+
+.red {
+  background-color: #f86767;
+}
+
+.terminal-body {
+  padding: 10px;
+  height: 300px; /* Adjust as needed */
+  overflow-y: auto;
+}
+
+.terminal-footer {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #000;
+}
+
+.prompt {
+  margin-right: 5px;
+  color: #00ff00;
+}
+
+#message-input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+#send-message-btn {
+  background-color: #00ff00;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#send-message-btn:hover {
+  background-color: #009900;
+}
+
+/* Hide default input arrows on number input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.chat-container{
+  background-color: #272727;
+}
+
+.navbar-brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand.links {
+  margin-left: 70px; /* Adjust as needed */
+}
